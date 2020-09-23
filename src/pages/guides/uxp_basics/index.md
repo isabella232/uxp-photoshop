@@ -59,9 +59,6 @@ Now that you've installed the pieces you need to develop UXP plugins, take a loo
 #### Kitchen Sink Example
 This is sample code, not actually a tool. But the [uxp-ui-kitchen-sink-plugin](../../linktbd.md) is very useful in showing the kinds of controls you can use in UXP. It covers both Spectrum and native controls.
 
-#### Alchemist Plugin by Jaroslav Bereza
-The third-party [Alchemist plugin](../../linktbd.md) is ideal for developers who need to use batchPlay in their Photoshop plugins. It basically listens to every event in Photoshop and produces a log suitable for use in batchPlay calls. Alchemist also contains an inspector that can be used to browse the Photoshop DOM.
-
 #### HTML Playground
 The [HTML PLayground](https://github.com/adobe-uxp/ps-uxp-html-playground) plugin is designed to make it simple to test out simple HTML layouts in Photoshop using UXP's layout engine. To use this, install the plugin using the UXP Developer Tool.
 
@@ -69,4 +66,4 @@ The [HTML PLayground](https://github.com/adobe-uxp/ps-uxp-html-playground) plugi
 
 Plug the [ExtendScript BatchPlay logger](https://github.com/adobe-uxp/ps-es-to-uxp) jsx code into your ExtendScript project, and it will print out all your `executeAction` and `executeActionGet` methods in a format suitable for use with UXP's BatchPlay.
 
-#### TBD: ANYTHING ELSE?
+#### TBD: ANYTHING ELSE? It would be good to mention Jarda's Alchemy thing somewhere.
