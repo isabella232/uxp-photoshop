@@ -32,3 +32,5 @@ There are some caveats for using SecureStorage:
 2. Data in SecureStorage can be lost for various reasons. For an example, the user could uninstall the host application and delete the secure storage. Or, the cryptographic information used by the secure storage could be damaged by the user accidentally. This will result in loss of data without the secure storage being removed.
 
 3. SecureStorage should be regarded as a cache rather than a persistent storage. Data in SecureStorage should be able to be regenerated from plugins after the time of loss.
+
+**TBD: NEED A SECURE STORAGE EXAMPLE**
