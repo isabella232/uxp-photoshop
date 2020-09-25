@@ -35,6 +35,11 @@ Although the browser that underlies UXP supports common HTML/CSS use cases that 
 
 Troubleshooting CSS is a full-time job for some web developers. For UXP plugins, it's not as bad because the CSS is only targeting one "browser." On the other hand, CSS bugs are often difficult to track down.
 
+### Not Watching
+The UXP Developer Toolkit has a great "watch" feature that automatically reloads your plugins when (almost) any of the files in your plugin folder change. But unless you enable this watch feature (by selecting `Watch` in the Actions column), nothing will change in Photoshop when you save a change to one of your files while editing.
+
+You can always reload your plugin manually, but it's nice when the system does it for you.
+
 ### Gremlins
 Sometimes, restarting Photoshop and the UXP Developer Tool will make a problem mysteriously vanish. Why does this happen? Yes, yes it does.
 
