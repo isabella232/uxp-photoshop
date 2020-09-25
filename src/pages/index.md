@@ -32,7 +32,9 @@ UXP provides modern JavaScript, a curated selection of UI components, and a more
 - Panels - full-featured panels that look like any other panel in Photoshop. UXP panels can contain as complex a UI as you wish to develop. They can be resized, docked, opened and closed just like native Photoshop panels.
 
 <InlineAlert variant="info" slots="text"/>
-While this documentation set talks exclusively about UXP, earlier methods of controlling Photoshop, including CEP (Common Extensibility Platfor) and ExtendScript continue to be supported. You don't need to be in a mad rush to change everything over to UXP, although over time these earlier technologies will be deprecated and then removed from Photoshop.
+
+**IMPORTANT**:
+While this documentation set talks exclusively about Photoshop plugins created using UXP, earlier methods of controlling Photoshop, including CEP (Common Extensibility Platfor) and ExtendScript continue to be supported. You don't need to be in a mad rush to change everything over to UXP, although over time these earlier technologies will be deprecated and then removed from Photoshop.
 
 
 ## Discover 
